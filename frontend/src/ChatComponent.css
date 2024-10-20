@@ -1,0 +1,51 @@
+/* src/ChatComponent.css */
+.chat-container {
+    margin: 20px auto;
+    width: 50%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .chat-window {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  
+  .chat-message {
+    margin: 10px 0;
+  }
+  
+  .chat-message.agent {
+    text-align: left;
+    color: blue;
+  }
+  
+  .chat-message.user {
+    text-align: right;
+    color: green;
+  }
+  
+  .chat-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .chat-input input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .chat-input button {
+    padding: 10px;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
